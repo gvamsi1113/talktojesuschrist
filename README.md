@@ -23,7 +23,7 @@ The world is searching for hope and meaning in the age of AI. *TalkToJesusChrist
 - Domain acquired: **TalkToJesusChrist.com**  
 - Frontend live with Next.js + Vercel  
 - Initial RAG pipeline trained on Bible + Christian commentary  
-- Positive reception from early testers: *“This feels like carrying a pocket Bible with a pastor’s heart.”*  
+- Positive reception from early testers: *"This feels like carrying a pocket Bible with a pastor's heart."*  
 
 ## Business Model  
 - **Donations** — Primary revenue stream, modeled after churches and Christian nonprofits  
@@ -37,7 +37,7 @@ The world is searching for hope and meaning in the age of AI. *TalkToJesusChrist
 - 🌍 Multi-language support for global reach  
 - 📖 Partner with churches and publishers for licensed Christian content  
 
-## Why We’ll Win  
+## Why We'll Win  
 - **Unique Domain & Branding** — Memorable, direct, and mission-aligned  
 - **Clear Intent** — Not a tech demo, a faith-based mission  
 - **Scalable Architecture** — RAG + AI allows expansion to global audiences  
@@ -47,4 +47,4 @@ The world is searching for hope and meaning in the age of AI. *TalkToJesusChrist
 We are seeking **donors, early believers, and mission-driven investors** to help scale *TalkToJesusChrist.com*. Together, we can ensure that the Word of God is never more than one conversation away.  
 
 🙏 [Visit TalkToJesusChrist.com](https://talktojesuschrist.com)  
-📩 Contact: founder@talktojesuschrist.com  
+📩 Contact: founder@talktojesuschrist.com
