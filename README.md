@@ -48,3 +48,7 @@ We are seeking **donors, early believers, and mission-driven investors** to help
 
 🙏 [Visit TalkToJesusChrist.com](https://talktojesuschrist.com)  
 📩 Contact: founder@talktojesuschrist.com
+
+---
+
+**Agent Access:** This repository is monitored by OPClaw (GitHub App: VamsiOCHQ-Agent0). Code changes are coordinated through Claude Code sessions and delivered via pull requests.
