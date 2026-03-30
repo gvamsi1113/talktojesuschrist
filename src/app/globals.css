@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 * {
   margin: 0;
@@ -95,8 +93,13 @@ p {
 
 /* Buttons */
 .btn-primary {
-  @apply px-8 py-3 bg-gradient-to-r from-[#d4af37] to-[#aa8c2c] text-black font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer;
+  @apply px-8 py-3 text-black font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer;
+  background: linear-gradient(to right, #d4af37, #aa8c2c);
   box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
 }
 
 .btn-secondary {
