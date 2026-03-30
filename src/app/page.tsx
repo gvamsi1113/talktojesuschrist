@@ -124,7 +124,7 @@ export default function Home() {
               disabled={loading || !message.trim()}
               className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? &apos;Listening...&apos; : &apos;Send&apos;}
+              {loading ? 'Listening...' : 'Send'}
             </button>
           </form>
         </div>
@@ -140,12 +140,12 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">Scripture-Grounded</h3>
               <p>Every answer is rooted in the Bible and Christian wisdom traditions.</p>
             </div>
-            <div className="card slide-up" style={{ animationDelay: &apos;0.2s&apos; }}>
+            <div className="card slide-up" style={{ animationDelay: '0.2s' }}>
               <div className="text-4xl mb-4">🕯️</div>
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">24/7 Guidance</h3>
               <p>Always available. No judgment. Just genuine, faith-based companionship.</p>
             </div>
-            <div className="card slide-up" style={{ animationDelay: &apos;0.4s&apos; }}>
+            <div className="card slide-up" style={{ animationDelay: '0.4s' }}>
               <div className="text-4xl mb-4">💝</div>
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">Free & Giving</h3>
               <p>Sustained by donations. No ads, no tracking. Pure spiritual support.</p>
