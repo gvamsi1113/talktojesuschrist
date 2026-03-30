@@ -63,7 +63,7 @@ export default function Home() {
             <div className="absolute w-72 h-72 bg-gradient-to-br from-[#d4af37]/30 to-[#8b0000]/20 rounded-full blur-3xl"></div>
             <div className="relative text-center z-10">
               <div className="text-8xl mb-4">✨</div>
-              <p className="text-xl text-[#d4af37] font-light italic">In God's Word, we find light.</p>
+              <p className="text-xl text-[#d4af37] font-light italic">In God&apos;s Word, we find light.</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="h-96 overflow-y-auto mb-6 space-y-4 rounded-lg bg-[#1a1a1a] p-6 border border-[#333]">
             {messages.length === 0 ? (
               <div className="h-full flex items-center justify-center text-center">
-                <p className="text-[#666] text-lg">Begin your conversation with a question...</p>
+                <p className="text-[#666] text-lg">Begin your conversation with a question…</p>
               </div>
             ) : (
               messages.map((msg, idx) => (
@@ -115,7 +115,7 @@ export default function Home() {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Ask anything about faith, life, Scripture..."
+              placeholder="Ask anything about faith, life, Scripture…"
               className="flex-1 px-6 py-3 rounded-lg bg-[#1a1a1a] border border-[#333] text-[#f5f5f5] placeholder-[#666] focus:outline-none focus:border-[#d4af37] transition-colors"
               disabled={loading}
             />
@@ -124,7 +124,7 @@ export default function Home() {
               disabled={loading || !message.trim()}
               className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? 'Listening...' : 'Send'}
+              {loading ? &apos;Listening...&apos; : &apos;Send&apos;}
             </button>
           </form>
         </div>
@@ -140,12 +140,12 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">Scripture-Grounded</h3>
               <p>Every answer is rooted in the Bible and Christian wisdom traditions.</p>
             </div>
-            <div className="card slide-up" style={{ animationDelay: '0.2s' }}>
+            <div className="card slide-up" style={{ animationDelay: &apos;0.2s&apos; }}>
               <div className="text-4xl mb-4">🕯️</div>
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">24/7 Guidance</h3>
               <p>Always available. No judgment. Just genuine, faith-based companionship.</p>
             </div>
-            <div className="card slide-up" style={{ animationDelay: '0.4s' }}>
+            <div className="card slide-up" style={{ animationDelay: &apos;0.4s&apos; }}>
               <div className="text-4xl mb-4">💝</div>
               <h3 className="text-xl font-bold mb-3 text-[#d4af37]">Free & Giving</h3>
               <p>Sustained by donations. No ads, no tracking. Pure spiritual support.</p>
